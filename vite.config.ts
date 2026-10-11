@@ -14,7 +14,7 @@ export default defineConfig({
       ? viteSingleFile()
       : VitePWA({
           registerType: 'autoUpdate',
-          includeAssets: ['apple-touch-icon.png'],
+          includeAssets: ['apple-touch-icon-v2.png'],
           manifest: {
             name: 'Ease',
             short_name: 'Ease',
@@ -26,8 +26,8 @@ export default defineConfig({
             start_url: '/ease/',
             scope: '/ease/',
             icons: [
-              { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
-              { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+              { src: 'icon-192-v2.png', sizes: '192x192', type: 'image/png' },
+              { src: 'icon-512-v2.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
             ],
           },
         }),
