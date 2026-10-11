@@ -20,7 +20,7 @@ export default defineConfig({
             short_name: 'Ease',
             description: '轮班女性的轻量体重管理助手',
             lang: 'zh-CN',
-            theme_color: '#29473A',
+            theme_color: '#F2EADF',
             background_color: '#F2EADF',
             display: 'standalone',
             start_url: '/ease/',
